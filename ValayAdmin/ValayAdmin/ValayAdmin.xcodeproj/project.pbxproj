@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31946BA21F29BFCD002ACDE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31946BA11F29BFCD002ACDE6 /* main.m */; };
+		31946BA51F29BFCD002ACDE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31946BA41F29BFCD002ACDE6 /* AppDelegate.m */; };
+		31946BAD1F29BFCD002ACDE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31946BAC1F29BFCD002ACDE6 /* Assets.xcassets */; };
+		31946BB01F29BFCD002ACDE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31946BAE1F29BFCD002ACDE6 /* LaunchScreen.storyboard */; };
+		31946BB91F29D791002ACDE6 /* VLYContractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 31946BB81F29D791002ACDE6 /* VLYContractor.m */; };
+		31946BC51F2A52D7002ACDE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31946BC41F2A52D7002ACDE6 /* GoogleService-Info.plist */; };
+		31946BE71F2A5D95002ACDE6 /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BC91F2A5D95002ACDE6 /* SF-Pro-Display-Black.otf */; };
+		31946BE81F2A5D95002ACDE6 /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BCA1F2A5D95002ACDE6 /* SF-Pro-Display-BlackItalic.otf */; };
+		31946BE91F2A5D95002ACDE6 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BCB1F2A5D95002ACDE6 /* SF-Pro-Display-Bold.otf */; };
+		31946BEA1F2A5D95002ACDE6 /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BCC1F2A5D95002ACDE6 /* SF-Pro-Display-BoldItalic.otf */; };
+		31946BEB1F2A5D95002ACDE6 /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BCD1F2A5D95002ACDE6 /* SF-Pro-Display-Heavy.otf */; };
+		31946BEC1F2A5D95002ACDE6 /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BCE1F2A5D95002ACDE6 /* SF-Pro-Display-HeavyItalic.otf */; };
+		31946BED1F2A5D95002ACDE6 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BCF1F2A5D95002ACDE6 /* SF-Pro-Display-Light.otf */; };
+		31946BEE1F2A5D95002ACDE6 /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BD01F2A5D95002ACDE6 /* SF-Pro-Display-LightItalic.otf */; };
+		31946BEF1F2A5D95002ACDE6 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BD11F2A5D95002ACDE6 /* SF-Pro-Display-Medium.otf */; };
+		31946BF01F2A5D95002ACDE6 /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BD21F2A5D95002ACDE6 /* SF-Pro-Display-MediumItalic.otf */; };
+		31946BF11F2A5D95002ACDE6 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BD31F2A5D95002ACDE6 /* SF-Pro-Display-Regular.otf */; };
+		31946BF21F2A5D95002ACDE6 /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BD41F2A5D95002ACDE6 /* SF-Pro-Display-RegularItalic.otf */; };
+		31946BF31F2A5D95002ACDE6 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BD51F2A5D95002ACDE6 /* SF-Pro-Display-Semibold.otf */; };
+		31946BF41F2A5D95002ACDE6 /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BD61F2A5D95002ACDE6 /* SF-Pro-Display-SemiboldItalic.otf */; };
+		31946BF51F2A5D95002ACDE6 /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BD71F2A5D95002ACDE6 /* SF-Pro-Display-Thin.otf */; };
+		31946BF61F2A5D95002ACDE6 /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BD81F2A5D95002ACDE6 /* SF-Pro-Display-ThinItalic.otf */; };
+		31946BF71F2A5D95002ACDE6 /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BD91F2A5D95002ACDE6 /* SF-Pro-Display-Ultralight.otf */; };
+		31946BF81F2A5D95002ACDE6 /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BDA1F2A5D95002ACDE6 /* SF-Pro-Display-UltralightItalic.otf */; };
+		31946BF91F2A5D95002ACDE6 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BDB1F2A5D95002ACDE6 /* SF-Pro-Text-Bold.otf */; };
+		31946BFA1F2A5D95002ACDE6 /* SF-Pro-Text-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BDC1F2A5D95002ACDE6 /* SF-Pro-Text-BoldItalic.otf */; };
+		31946BFB1F2A5D95002ACDE6 /* SF-Pro-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BDD1F2A5D95002ACDE6 /* SF-Pro-Text-Heavy.otf */; };
+		31946BFC1F2A5D95002ACDE6 /* SF-Pro-Text-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BDE1F2A5D95002ACDE6 /* SF-Pro-Text-HeavyItalic.otf */; };
+		31946BFD1F2A5D95002ACDE6 /* SF-Pro-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BDF1F2A5D95002ACDE6 /* SF-Pro-Text-Light.otf */; };
+		31946BFE1F2A5D95002ACDE6 /* SF-Pro-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BE01F2A5D95002ACDE6 /* SF-Pro-Text-LightItalic.otf */; };
+		31946BFF1F2A5D95002ACDE6 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BE11F2A5D95002ACDE6 /* SF-Pro-Text-Medium.otf */; };
+		31946C001F2A5D95002ACDE6 /* SF-Pro-Text-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BE21F2A5D95002ACDE6 /* SF-Pro-Text-MediumItalic.otf */; };
+		31946C011F2A5D95002ACDE6 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BE31F2A5D95002ACDE6 /* SF-Pro-Text-Regular.otf */; };
+		31946C021F2A5D95002ACDE6 /* SF-Pro-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BE41F2A5D95002ACDE6 /* SF-Pro-Text-RegularItalic.otf */; };
+		31946C031F2A5D95002ACDE6 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BE51F2A5D95002ACDE6 /* SF-Pro-Text-Semibold.otf */; };
+		31946C041F2A5D95002ACDE6 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31946BE61F2A5D95002ACDE6 /* SF-Pro-Text-SemiboldItalic.otf */; };
+		31946C061F2A7A46002ACDE6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31946C051F2A7A46002ACDE6 /* Storyboard.storyboard */; };
+		31946C091F2A7BC8002ACDE6 /* VLYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31946C081F2A7BC8002ACDE6 /* VLYMainViewController.m */; };
+		31946C0D1F2AAE56002ACDE6 /* ContractorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31946C0B1F2AAE56002ACDE6 /* ContractorTableViewCell.m */; };
+		31946C0E1F2AAE56002ACDE6 /* ContractorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31946C0C1F2AAE56002ACDE6 /* ContractorTableViewCell.xib */; };
+		31946C121F2B3E87002ACDE6 /* VLYProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31946C111F2B3E87002ACDE6 /* VLYProfileViewController.m */; };
+		B1E927BBA9C3F34B5C554D4E /* libPods-ValayAdmin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB677A014F331E729A81798 /* libPods-ValayAdmin.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		114BDF0D032B57F2EDF6C103 /* Pods-ValayAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValayAdmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ValayAdmin/Pods-ValayAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		3143E4B31F33A33B007434D5 /* ValayAdmin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ValayAdmin.entitlements; sourceTree = "<group>"; };
+		31946B9D1F29BFCD002ACDE6 /* ValayAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValayAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31946BA11F29BFCD002ACDE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31946BA31F29BFCD002ACDE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31946BA41F29BFCD002ACDE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31946BAC1F29BFCD002ACDE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31946BAF1F29BFCD002ACDE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31946BB11F29BFCD002ACDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31946BB71F29D791002ACDE6 /* VLYContractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VLYContractor.h; path = Model/VLYContractor.h; sourceTree = "<group>"; };
+		31946BB81F29D791002ACDE6 /* VLYContractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VLYContractor.m; path = Model/VLYContractor.m; sourceTree = "<group>"; };
+		31946BC41F2A52D7002ACDE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		31946BC91F2A5D95002ACDE6 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		31946BCA1F2A5D95002ACDE6 /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		31946BCB1F2A5D95002ACDE6 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		31946BCC1F2A5D95002ACDE6 /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
+		31946BCD1F2A5D95002ACDE6 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		31946BCE1F2A5D95002ACDE6 /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
+		31946BCF1F2A5D95002ACDE6 /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		31946BD01F2A5D95002ACDE6 /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
+		31946BD11F2A5D95002ACDE6 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		31946BD21F2A5D95002ACDE6 /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
+		31946BD31F2A5D95002ACDE6 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		31946BD41F2A5D95002ACDE6 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		31946BD51F2A5D95002ACDE6 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		31946BD61F2A5D95002ACDE6 /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		31946BD71F2A5D95002ACDE6 /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		31946BD81F2A5D95002ACDE6 /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
+		31946BD91F2A5D95002ACDE6 /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		31946BDA1F2A5D95002ACDE6 /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
+		31946BDB1F2A5D95002ACDE6 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		31946BDC1F2A5D95002ACDE6 /* SF-Pro-Text-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-BoldItalic.otf"; sourceTree = "<group>"; };
+		31946BDD1F2A5D95002ACDE6 /* SF-Pro-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Heavy.otf"; sourceTree = "<group>"; };
+		31946BDE1F2A5D95002ACDE6 /* SF-Pro-Text-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+		31946BDF1F2A5D95002ACDE6 /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
+		31946BE01F2A5D95002ACDE6 /* SF-Pro-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		31946BE11F2A5D95002ACDE6 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		31946BE21F2A5D95002ACDE6 /* SF-Pro-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-MediumItalic.otf"; sourceTree = "<group>"; };
+		31946BE31F2A5D95002ACDE6 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		31946BE41F2A5D95002ACDE6 /* SF-Pro-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		31946BE51F2A5D95002ACDE6 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		31946BE61F2A5D95002ACDE6 /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		31946C051F2A7A46002ACDE6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		31946C071F2A7BC8002ACDE6 /* VLYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VLYMainViewController.h; path = Controller/VLYMainViewController.h; sourceTree = "<group>"; };
+		31946C081F2A7BC8002ACDE6 /* VLYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VLYMainViewController.m; path = Controller/VLYMainViewController.m; sourceTree = "<group>"; };
+		31946C0A1F2AAE56002ACDE6 /* ContractorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContractorTableViewCell.h; path = Views/ContractorTableViewCell.h; sourceTree = "<group>"; };
+		31946C0B1F2AAE56002ACDE6 /* ContractorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContractorTableViewCell.m; path = Views/ContractorTableViewCell.m; sourceTree = "<group>"; };
+		31946C0C1F2AAE56002ACDE6 /* ContractorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ContractorTableViewCell.xib; path = Views/ContractorTableViewCell.xib; sourceTree = "<group>"; };
+		31946C101F2B3E87002ACDE6 /* VLYProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VLYProfileViewController.h; path = Controller/VLYProfileViewController.h; sourceTree = "<group>"; };
+		31946C111F2B3E87002ACDE6 /* VLYProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VLYProfileViewController.m; path = Controller/VLYProfileViewController.m; sourceTree = "<group>"; };
+		50788F831EB9EE5E6F9B5EB9 /* Pods-ValayAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValayAdmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ValayAdmin/Pods-ValayAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		EDB677A014F331E729A81798 /* libPods-ValayAdmin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ValayAdmin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31946B9A1F29BFCD002ACDE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E927BBA9C3F34B5C554D4E /* libPods-ValayAdmin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31946B941F29BFCD002ACDE6 = {
+			isa = PBXGroup;
+			children = (
+				31946B9F1F29BFCD002ACDE6 /* ValayAdmin */,
+				31946B9E1F29BFCD002ACDE6 /* Products */,
+				A212FCEEC77181907122CECD /* Pods */,
+				4B03A1F37770327EA456178E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31946B9E1F29BFCD002ACDE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31946B9D1F29BFCD002ACDE6 /* ValayAdmin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31946B9F1F29BFCD002ACDE6 /* ValayAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				3143E4B31F33A33B007434D5 /* ValayAdmin.entitlements */,
+				31946BC01F29DF30002ACDE6 /* Controller */,
+				31946BBB1F29DE7F002ACDE6 /* View */,
+				31946BBA1F29DE6A002ACDE6 /* Model */,
+				31946BC71F2A5D2A002ACDE6 /* App */,
+				31946BA01F29BFCD002ACDE6 /* Supporting Files */,
+			);
+			path = ValayAdmin;
+			sourceTree = "<group>";
+		};
+		31946BA01F29BFCD002ACDE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31946BA11F29BFCD002ACDE6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31946BBA1F29DE6A002ACDE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31946BB71F29D791002ACDE6 /* VLYContractor.h */,
+				31946BB81F29D791002ACDE6 /* VLYContractor.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		31946BBB1F29DE7F002ACDE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31946C051F2A7A46002ACDE6 /* Storyboard.storyboard */,
+				31946C0F1F2AAE5B002ACDE6 /* ContractorCell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		31946BC01F29DF30002ACDE6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31946C071F2A7BC8002ACDE6 /* VLYMainViewController.h */,
+				31946C081F2A7BC8002ACDE6 /* VLYMainViewController.m */,
+				31946C101F2B3E87002ACDE6 /* VLYProfileViewController.h */,
+				31946C111F2B3E87002ACDE6 /* VLYProfileViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		31946BC71F2A5D2A002ACDE6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				31946BC81F2A5D41002ACDE6 /* SFFont */,
+				31946BA31F29BFCD002ACDE6 /* AppDelegate.h */,
+				31946BA41F29BFCD002ACDE6 /* AppDelegate.m */,
+				31946BAC1F29BFCD002ACDE6 /* Assets.xcassets */,
+				31946BAE1F29BFCD002ACDE6 /* LaunchScreen.storyboard */,
+				31946BB11F29BFCD002ACDE6 /* Info.plist */,
+				31946BC41F2A52D7002ACDE6 /* GoogleService-Info.plist */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		31946BC81F2A5D41002ACDE6 /* SFFont */ = {
+			isa = PBXGroup;
+			children = (
+				31946BC91F2A5D95002ACDE6 /* SF-Pro-Display-Black.otf */,
+				31946BCA1F2A5D95002ACDE6 /* SF-Pro-Display-BlackItalic.otf */,
+				31946BCB1F2A5D95002ACDE6 /* SF-Pro-Display-Bold.otf */,
+				31946BCC1F2A5D95002ACDE6 /* SF-Pro-Display-BoldItalic.otf */,
+				31946BCD1F2A5D95002ACDE6 /* SF-Pro-Display-Heavy.otf */,
+				31946BCE1F2A5D95002ACDE6 /* SF-Pro-Display-HeavyItalic.otf */,
+				31946BCF1F2A5D95002ACDE6 /* SF-Pro-Display-Light.otf */,
+				31946BD01F2A5D95002ACDE6 /* SF-Pro-Display-LightItalic.otf */,
+				31946BD11F2A5D95002ACDE6 /* SF-Pro-Display-Medium.otf */,
+				31946BD21F2A5D95002ACDE6 /* SF-Pro-Display-MediumItalic.otf */,
+				31946BD31F2A5D95002ACDE6 /* SF-Pro-Display-Regular.otf */,
+				31946BD41F2A5D95002ACDE6 /* SF-Pro-Display-RegularItalic.otf */,
+				31946BD51F2A5D95002ACDE6 /* SF-Pro-Display-Semibold.otf */,
+				31946BD61F2A5D95002ACDE6 /* SF-Pro-Display-SemiboldItalic.otf */,
+				31946BD71F2A5D95002ACDE6 /* SF-Pro-Display-Thin.otf */,
+				31946BD81F2A5D95002ACDE6 /* SF-Pro-Display-ThinItalic.otf */,
+				31946BD91F2A5D95002ACDE6 /* SF-Pro-Display-Ultralight.otf */,
+				31946BDA1F2A5D95002ACDE6 /* SF-Pro-Display-UltralightItalic.otf */,
+				31946BDB1F2A5D95002ACDE6 /* SF-Pro-Text-Bold.otf */,
+				31946BDC1F2A5D95002ACDE6 /* SF-Pro-Text-BoldItalic.otf */,
+				31946BDD1F2A5D95002ACDE6 /* SF-Pro-Text-Heavy.otf */,
+				31946BDE1F2A5D95002ACDE6 /* SF-Pro-Text-HeavyItalic.otf */,
+				31946BDF1F2A5D95002ACDE6 /* SF-Pro-Text-Light.otf */,
+				31946BE01F2A5D95002ACDE6 /* SF-Pro-Text-LightItalic.otf */,
+				31946BE11F2A5D95002ACDE6 /* SF-Pro-Text-Medium.otf */,
+				31946BE21F2A5D95002ACDE6 /* SF-Pro-Text-MediumItalic.otf */,
+				31946BE31F2A5D95002ACDE6 /* SF-Pro-Text-Regular.otf */,
+				31946BE41F2A5D95002ACDE6 /* SF-Pro-Text-RegularItalic.otf */,
+				31946BE51F2A5D95002ACDE6 /* SF-Pro-Text-Semibold.otf */,
+				31946BE61F2A5D95002ACDE6 /* SF-Pro-Text-SemiboldItalic.otf */,
+			);
+			name = SFFont;
+			sourceTree = "<group>";
+		};
+		31946C0F1F2AAE5B002ACDE6 /* ContractorCell */ = {
+			isa = PBXGroup;
+			children = (
+				31946C0A1F2AAE56002ACDE6 /* ContractorTableViewCell.h */,
+				31946C0B1F2AAE56002ACDE6 /* ContractorTableViewCell.m */,
+				31946C0C1F2AAE56002ACDE6 /* ContractorTableViewCell.xib */,
+			);
+			name = ContractorCell;
+			sourceTree = "<group>";
+		};
+		4B03A1F37770327EA456178E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDB677A014F331E729A81798 /* libPods-ValayAdmin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A212FCEEC77181907122CECD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				114BDF0D032B57F2EDF6C103 /* Pods-ValayAdmin.debug.xcconfig */,
+				50788F831EB9EE5E6F9B5EB9 /* Pods-ValayAdmin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31946B9C1F29BFCD002ACDE6 /* ValayAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31946BB41F29BFCD002ACDE6 /* Build configuration list for PBXNativeTarget "ValayAdmin" */;
+			buildPhases = (
+				338055CB066A0641BA41AC06 /* [CP] Check Pods Manifest.lock */,
+				31946B991F29BFCD002ACDE6 /* Sources */,
+				31946B9A1F29BFCD002ACDE6 /* Frameworks */,
+				31946B9B1F29BFCD002ACDE6 /* Resources */,
+				B0143828518A9E6EE871F47E /* [CP] Embed Pods Frameworks */,
+				0EBEAB64C4DDABFC78F65964 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValayAdmin;
+			productName = ValayAdmin;
+			productReference = 31946B9D1F29BFCD002ACDE6 /* ValayAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31946B951F29BFCD002ACDE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Andre Creighton";
+				TargetAttributes = {
+					31946B9C1F29BFCD002ACDE6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 329GD8M8SH;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 31946B981F29BFCD002ACDE6 /* Build configuration list for PBXProject "ValayAdmin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31946B941F29BFCD002ACDE6;
+			productRefGroup = 31946B9E1F29BFCD002ACDE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31946B9C1F29BFCD002ACDE6 /* ValayAdmin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31946B9B1F29BFCD002ACDE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31946C001F2A5D95002ACDE6 /* SF-Pro-Text-MediumItalic.otf in Resources */,
+				31946BB01F29BFCD002ACDE6 /* LaunchScreen.storyboard in Resources */,
+				31946C0E1F2AAE56002ACDE6 /* ContractorTableViewCell.xib in Resources */,
+				31946BE81F2A5D95002ACDE6 /* SF-Pro-Display-BlackItalic.otf in Resources */,
+				31946BFE1F2A5D95002ACDE6 /* SF-Pro-Text-LightItalic.otf in Resources */,
+				31946BEE1F2A5D95002ACDE6 /* SF-Pro-Display-LightItalic.otf in Resources */,
+				31946BFF1F2A5D95002ACDE6 /* SF-Pro-Text-Medium.otf in Resources */,
+				31946BEF1F2A5D95002ACDE6 /* SF-Pro-Display-Medium.otf in Resources */,
+				31946BF91F2A5D95002ACDE6 /* SF-Pro-Text-Bold.otf in Resources */,
+				31946BF01F2A5D95002ACDE6 /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				31946BEA1F2A5D95002ACDE6 /* SF-Pro-Display-BoldItalic.otf in Resources */,
+				31946C041F2A5D95002ACDE6 /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
+				31946BFC1F2A5D95002ACDE6 /* SF-Pro-Text-HeavyItalic.otf in Resources */,
+				31946BFB1F2A5D95002ACDE6 /* SF-Pro-Text-Heavy.otf in Resources */,
+				31946BC51F2A52D7002ACDE6 /* GoogleService-Info.plist in Resources */,
+				31946BF81F2A5D95002ACDE6 /* SF-Pro-Display-UltralightItalic.otf in Resources */,
+				31946BE71F2A5D95002ACDE6 /* SF-Pro-Display-Black.otf in Resources */,
+				31946BF61F2A5D95002ACDE6 /* SF-Pro-Display-ThinItalic.otf in Resources */,
+				31946BF71F2A5D95002ACDE6 /* SF-Pro-Display-Ultralight.otf in Resources */,
+				31946BFD1F2A5D95002ACDE6 /* SF-Pro-Text-Light.otf in Resources */,
+				31946C061F2A7A46002ACDE6 /* Storyboard.storyboard in Resources */,
+				31946C021F2A5D95002ACDE6 /* SF-Pro-Text-RegularItalic.otf in Resources */,
+				31946BE91F2A5D95002ACDE6 /* SF-Pro-Display-Bold.otf in Resources */,
+				31946BAD1F29BFCD002ACDE6 /* Assets.xcassets in Resources */,
+				31946BED1F2A5D95002ACDE6 /* SF-Pro-Display-Light.otf in Resources */,
+				31946BF51F2A5D95002ACDE6 /* SF-Pro-Display-Thin.otf in Resources */,
+				31946BF21F2A5D95002ACDE6 /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				31946BEB1F2A5D95002ACDE6 /* SF-Pro-Display-Heavy.otf in Resources */,
+				31946BF41F2A5D95002ACDE6 /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				31946C011F2A5D95002ACDE6 /* SF-Pro-Text-Regular.otf in Resources */,
+				31946BF31F2A5D95002ACDE6 /* SF-Pro-Display-Semibold.otf in Resources */,
+				31946BF11F2A5D95002ACDE6 /* SF-Pro-Display-Regular.otf in Resources */,
+				31946C031F2A5D95002ACDE6 /* SF-Pro-Text-Semibold.otf in Resources */,
+				31946BFA1F2A5D95002ACDE6 /* SF-Pro-Text-BoldItalic.otf in Resources */,
+				31946BEC1F2A5D95002ACDE6 /* SF-Pro-Display-HeavyItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EBEAB64C4DDABFC78F65964 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ValayAdmin/Pods-ValayAdmin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		338055CB066A0641BA41AC06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0143828518A9E6EE871F47E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ValayAdmin/Pods-ValayAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31946B991F29BFCD002ACDE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31946BB91F29D791002ACDE6 /* VLYContractor.m in Sources */,
+				31946C0D1F2AAE56002ACDE6 /* ContractorTableViewCell.m in Sources */,
+				31946C121F2B3E87002ACDE6 /* VLYProfileViewController.m in Sources */,
+				31946C091F2A7BC8002ACDE6 /* VLYMainViewController.m in Sources */,
+				31946BA51F29BFCD002ACDE6 /* AppDelegate.m in Sources */,
+				31946BA21F29BFCD002ACDE6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31946BAE1F29BFCD002ACDE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31946BAF1F29BFCD002ACDE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31946BB21F29BFCD002ACDE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31946BB31F29BFCD002ACDE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31946BB51F29BFCD002ACDE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114BDF0D032B57F2EDF6C103 /* Pods-ValayAdmin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ValayAdmin/ValayAdmin.entitlements;
+				DEVELOPMENT_TEAM = 329GD8M8SH;
+				INFOPLIST_FILE = ValayAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andre.myproject.ValayAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31946BB61F29BFCD002ACDE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50788F831EB9EE5E6F9B5EB9 /* Pods-ValayAdmin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ValayAdmin/ValayAdmin.entitlements;
+				DEVELOPMENT_TEAM = 329GD8M8SH;
+				INFOPLIST_FILE = ValayAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = andre.myproject.ValayAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31946B981F29BFCD002ACDE6 /* Build configuration list for PBXProject "ValayAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31946BB21F29BFCD002ACDE6 /* Debug */,
+				31946BB31F29BFCD002ACDE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31946BB41F29BFCD002ACDE6 /* Build configuration list for PBXNativeTarget "ValayAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31946BB51F29BFCD002ACDE6 /* Debug */,
+				31946BB61F29BFCD002ACDE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31946B951F29BFCD002ACDE6 /* Project object */;
+}
